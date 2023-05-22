@@ -1,0 +1,5 @@
+ARCHITECTURE rtl OF paddle IS
+
+BEGIN
+
+END rtl;

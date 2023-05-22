@@ -1,22 +1,27 @@
 architecture rtl of timer is
-  signal counter : unsigned(31 downto 0) := to_unsigned(count, 32);
+  signal counter : integer := 0;
+
 begin
 
   timer : process (clk, reset)
   begin
-    if rising_edge(clk) then
 
-      if reset = '1' then
-        counter <= to_unsigned(count, 32);
-        flag <= '0';
-      else counter <= counter - 1;
+    if n_reset = '0' then
+
+      counter <= 0;
+
+    elsif rising_edge(clk) then
+
+      counter <= counter + 1;
+
+      if counter = count - 1 or reset = '1' then
+
+        counter <= 0;
+
       end if;
-
-      if counter = to_unsigned(0, 32) then
-        flag <= '1';
-      end if;
-
     end if;
   end process;
+
+  flag <= '1' when counter = count - 1 else '0';
 
 end rtl;

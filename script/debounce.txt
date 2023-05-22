@@ -1,0 +1,6 @@
+vsim -t ps debounce
+add wave *
+force clk 0 0, 1 15 -repeat 30
+force button_in 0 0, 1 120, 0 150, 1 180, 0 240, 1 300, 0 390
+force n_reset 0 0, 1 6
+run 465

@@ -1,0 +1,551 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+Eball
+Z0 w1684762449
+Z1 DPx4 work 5 utils 0 22 _>9T9`[T:PnC_KLYTIM?[1
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 d//files8/data/batut/My Documents/breakout/breakout
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/ball-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/ball-entity.vhd
+l0
+L6
+V5Pa>8K5oz`<W[87?hA7[33
+!s100 A17n6^<UBU12XVnRP0<IW2
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1684774764
+!i10b 1
+Z8 !s108 1684774764.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/ball-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/ball-entity.vhd|
+!i113 1
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1 CvgOpt 0
+Artl
+Z11 DEx4 work 5 steer 0 22 lLbW:Hb3TJ>;@?FBSG=en3
+Z12 DEx4 work 15 pattern_encoder 0 22 m_AEG7V4c]66D34JiQEAG0
+R1
+R2
+R3
+R4
+Z13 DEx4 work 4 ball 0 22 5Pa>8K5oz`<W[87?hA7[33
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/ball-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/ball-rtl.vhd
+l53
+L1
+Vm61PQ0@ON:H8PbNII9Y:l2
+!s100 ckoi1bQa;gV7:l4][B:;D2
+R6
+32
+Z14 !s110 1684774766
+!i10b 1
+Z15 !s108 1684774766.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/ball-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/ball-rtl.vhd|
+!i113 1
+R9
+R10
+Ebreakout
+R0
+R1
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/breakout-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/breakout-entity.vhd
+l0
+L6
+VlKZ2VB3ffO8Y@;o0SnLY@1
+!s100 jiTeKlE4bO>54nbLf:?5E0
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/breakout-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/breakout-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+Z16 DEx4 work 7 display 0 22 hG5EV<zGVCg?d?`DkW`mb3
+Z17 DEx4 work 5 timer 0 22 U7e99Bl5acQd9>P59S>iB3
+Z18 DEx4 work 5 brick 0 22 9@3VM;6GckdLedS6A96V^3
+Z19 DEx4 work 6 paddle 0 22 B0a14]VUgF@dLQa>5KJ7P1
+R13
+Z20 DEx4 work 11 soft_button 0 22 zm7=5W8O3e7:Wfk<A3hRL1
+Z21 DEx4 work 8 game_ctl 0 22 V=RK1CVWlEA]L[:E@JVCe1
+R1
+R2
+R3
+R4
+DEx4 work 8 breakout 0 22 lKZ2VB3ffO8Y@;o0SnLY@1
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/breakout-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/breakout-rtl.vhd
+l38
+L1
+VAIOa^Vff5@T<TRDliZ`570
+!s100 Om]nnRNh_@PUe4;5mHK8M1
+R6
+32
+Z22 !s110 1684774767
+!i10b 1
+Z23 !s108 1684774767.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/breakout-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/breakout-rtl.vhd|
+!i113 1
+R9
+R10
+Ebrick
+R0
+R1
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/brick-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/brick-entity.vhd
+l0
+L6
+V9@3VM;6GckdLedS6A96V^3
+!s100 YjKfK3?[ODTaZoPn`hYbh2
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/brick-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/brick-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+R1
+R2
+R3
+R4
+R18
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/brick-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/brick-rtl.vhd
+l3
+L1
+Vc]=N?5N9_W6n9G2[[U^Yh1
+!s100 SHe;5<N;XQCV:@>`iSWWK1
+R6
+32
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/brick-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/brick-rtl.vhd|
+!i113 1
+R9
+R10
+Edebounce
+R0
+R1
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/debounce-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/debounce-entity.vhd
+l0
+L6
+VkzY1OCQ]c>M1noQ9:G=853
+!s100 Qn2n7`7dODLdk0ILNcYWS3
+R6
+32
+R7
+!i10b 1
+R8
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/debounce-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/debounce-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+w1684774761
+R1
+R2
+R3
+R4
+Z24 DEx4 work 8 debounce 0 22 kzY1OCQ]c>M1noQ9:G=853
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/debounce-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/debounce-rtl.vhd
+l14
+L1
+VW`AEid2BdEa@]0hzHc[jo3
+!s100 VEWR`g9LYi@<EE2fUj6aW2
+R6
+32
+R22
+!i10b 1
+R23
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/debounce-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/debounce-rtl.vhd|
+!i113 1
+R9
+R10
+Edisplay
+R0
+R1
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/display-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/display-entity.vhd
+l0
+L6
+VhG5EV<zGVCg?d?`DkW`mb3
+!s100 ?0KWZ4MPDl7D;YBd]_nD`3
+R6
+32
+Z25 !s110 1684774765
+!i10b 1
+Z26 !s108 1684774765.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/display-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/display-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+R1
+R2
+R3
+R4
+R16
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/display-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/display-rtl.vhd
+l2
+L1
+Vz5G6dF>i`PGWNP5X1WB`c1
+!s100 ]hSAgdjGcPZf0BU5_iB3[3
+R6
+32
+Z27 !s110 1684774768
+!i10b 1
+R23
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/display-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/display-rtl.vhd|
+!i113 1
+R9
+R10
+Egame_ctl
+R0
+R1
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/game_ctl-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/game_ctl-entity.vhd
+l0
+L6
+VV=RK1CVWlEA]L[:E@JVCe1
+!s100 bJc4SiA_AB57d2;M>T=2T0
+R6
+32
+R25
+!i10b 1
+R26
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/game_ctl-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/game_ctl-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+R1
+R2
+R3
+R4
+R21
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/game_ctl-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/game_ctl-rtl.vhd
+l3
+L1
+V;6X97?DzSOBcAP?n[nS?S1
+!s100 Yi6VAek@odl=fR=RP]?o`1
+R6
+32
+R27
+!i10b 1
+Z28 !s108 1684774768.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/game_ctl-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/game_ctl-rtl.vhd|
+!i113 1
+R9
+R10
+Epaddle
+R0
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/paddle-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/paddle-entity.vhd
+l0
+L5
+VB0a14]VUgF@dLQa>5KJ7P1
+!s100 aG:zn?3@7:K@mYD4[YneL1
+R6
+32
+R25
+!i10b 1
+R26
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/paddle-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/paddle-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+R2
+R3
+R4
+R19
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/paddle-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/paddle-rtl.vhd
+l3
+L1
+VA^SAJ^@VmEW=B1[@Rzdnb1
+!s100 X3]YR[jE3z`7AI8SQ@BDR3
+R6
+32
+R27
+!i10b 1
+R28
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/paddle-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/paddle-rtl.vhd|
+!i113 1
+R9
+R10
+Epattern_encoder
+R0
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/pattern_encoder-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/pattern_encoder-entity.vhd
+l0
+L5
+Vm_AEG7V4c]66D34JiQEAG0
+!s100 iPl2TahZI_9BV3`]RG0ib2
+R6
+32
+R25
+!i10b 1
+R26
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/pattern_encoder-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/pattern_encoder-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+R2
+R3
+R4
+R12
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/pattern_encoder-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/pattern_encoder-rtl.vhd
+l23
+L1
+V<fS84=WBWCnXM1oM0glA<3
+!s100 Aj]FOY8aWhNA@^:1<YESS3
+R6
+32
+R27
+!i10b 1
+R28
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/pattern_encoder-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/pattern_encoder-rtl.vhd|
+!i113 1
+R9
+R10
+Esoft_button
+R0
+R1
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/soft_button-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/soft_button-entity.vhd
+l0
+L6
+Vzm7=5W8O3e7:Wfk<A3hRL1
+!s100 2QXFQzgc;V>kZIMW6zJl80
+R6
+32
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/soft_button-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/soft_button-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+R24
+R1
+R2
+R3
+R4
+R20
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/soft_button-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/soft_button-rtl.vhd
+l4
+L1
+VjXflZ]G<V;]KgbjYcJ5O@2
+!s100 ?hSfoe`5cNg32W4aUcG5=1
+R6
+32
+Z29 !s110 1684774769
+!i10b 1
+Z30 !s108 1684774769.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/soft_button-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/soft_button-rtl.vhd|
+!i113 1
+R9
+R10
+Esteer
+R0
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/steer-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/steer-entity.vhd
+l0
+L5
+VlLbW:Hb3TJ>;@?FBSG=en3
+!s100 i^do8hACHM;70CFMH9K]12
+R6
+32
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/steer-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/steer-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+R2
+R3
+R4
+R11
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/steer-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/steer-rtl.vhd
+l9
+L1
+VkfOe4LcSGeFVNJ8DKkmfE2
+!s100 HJ;VBEjeB[:?VV<3Oaa]C1
+R6
+32
+R29
+!i10b 1
+R30
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/steer-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/steer-rtl.vhd|
+!i113 1
+R9
+R10
+Etimer
+R0
+R2
+R3
+R4
+R5
+8//files8/data/batut/My Documents/breakout/breakout/template/entities/timer-entity.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/entities/timer-entity.vhd
+l0
+L5
+VU7e99Bl5acQd9>P59S>iB3
+!s100 Z3i9[PkDn6T1@;Ve`=e<B3
+R6
+32
+R14
+!i10b 1
+R15
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/timer-entity.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/timer-entity.vhd|
+!i113 1
+R9
+R10
+Artl
+w1684767789
+R2
+R3
+R4
+R17
+8//files8/data/batut/My Documents/breakout/breakout/template/architectures/timer-rtl.vhd
+F//files8/data/batut/My Documents/breakout/breakout/template/architectures/timer-rtl.vhd
+l4
+L1
+VN]dz@W5c=o5IWlaiXUIe;1
+!s100 a2eW03RAH>2Z7A@391ZZ>3
+R6
+32
+R29
+!i10b 1
+R30
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/timer-rtl.vhd|
+!s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/timer-rtl.vhd|
+!i113 1
+R9
+R10
+Putils
+R2
+R3
+R4
+R0
+R5
+Z31 8//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd
+Z32 F//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd
+l0
+L5
+V_>9T9`[T:PnC_KLYTIM?[1
+!s100 JO@Rk;Si7caZnSg[VK2?53
+R6
+32
+b1
+Z33 !s110 1684774770
+!i10b 1
+R30
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd|
+Z35 !s107 //files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd|
+!i113 1
+R9
+R10
+Bbody
+R1
+R2
+R3
+R4
+l0
+L24
+Z36 VbFWjNVPPD=hOBTjoBPkG]3
+Z37 !s100 WRBLa4L?GUTMKF^j?i9ao2
+R6
+32
+R33
+!i10b 1
+R30
+R34
+R35
+!i113 1
+R9
+R10

@@ -1,0 +1,212 @@
+{//files8/data/batut/My Documents/breakout/breakout/template/architectures/paddle-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/paddle-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of paddle
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading entity paddle
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/architectures/brick-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/brick-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of brick
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Loading entity brick
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/architectures/ball-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/ball-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of ball
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Loading entity ball
+-- Loading entity pattern_encoder
+-- Loading entity steer
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/steer-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/steer-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity steer
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/ball-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/ball-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Compiling entity ball
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/architectures/display-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/display-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of display
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Loading entity display
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/game_ctl-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/game_ctl-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Compiling entity game_ctl
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/architectures/soft_button-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/soft_button-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of soft_button
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Loading entity soft_button
+-- Loading entity debounce
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/pattern_encoder-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/pattern_encoder-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pattern_encoder
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/display-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/display-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Compiling entity display
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/architectures/steer-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/steer-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of steer
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading entity steer
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/timer-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/timer-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity timer
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package utils
+-- Compiling package body utils
+-- Loading package utils
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/architectures/game_ctl-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/game_ctl-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of game_ctl
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Loading entity game_ctl
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/paddle-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/paddle-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity paddle
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/architectures/pattern_encoder-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/pattern_encoder-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of pattern_encoder
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading entity pattern_encoder
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/architectures/breakout-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/breakout-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of breakout
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Loading entity breakout
+-- Loading entity game_ctl
+-- Loading entity soft_button
+-- Loading entity ball
+-- Loading entity paddle
+-- Loading entity brick
+-- Loading entity timer
+-- Loading entity display
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/brick-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/brick-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Compiling entity brick
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/debounce-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/debounce-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Compiling entity debounce
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/breakout-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/breakout-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Compiling entity breakout
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/architectures/timer-rtl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/architectures/timer-rtl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Compiling architecture rtl of timer
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading entity timer
+
+} {} {}} {//files8/data/batut/My Documents/breakout/breakout/template/entities/soft_button-entity.vhd} {1 {vcom -work work -2002 -explicit -stats=none {//files8/data/batut/My Documents/breakout/breakout/template/entities/soft_button-entity.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package utils
+-- Compiling entity soft_button
+
+} {} {}}

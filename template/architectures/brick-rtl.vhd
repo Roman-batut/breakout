@@ -1,12 +1,13 @@
 ARCHITECTURE rtl OF brick IS
 signal ball_next_loc_x, ball_next_loc_y : integer;
 signal brk_loc_x, brk_loc_y : integer;
-signal brk_loc_valid : std_logic;
+signal brk_loc_valid : std_logic := '1';
 BEGIN
 
 -- Brick location
 brk_loc_x <= to_integer(unsigned(loc_x));
 brk_loc_y <= to_integer(unsigned(loc_y));
+
 
 -- Ball location
 ball_next_loc_x <= to_integer(unsigned(ball_loc_x)) + to_integer(unsigned(ball_vel_x));
@@ -19,12 +20,12 @@ begin
     if (n_reset = '0') then
         
         -- past <= 1
-        brick_loc_valid <= sw;
+        brk_loc_valid <= sw;
 
     -- Stop state
     elsif game_ctl = '0' then -- and past = '1'
             
-        brick_loc_valid <= sw;
+        brk_loc_valid <= sw;
 
     -- Rising edge
     elsif rising_edge(clk) and game_ctl = '1' then

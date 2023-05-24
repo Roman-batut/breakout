@@ -1,7 +1,7 @@
 ARCHITECTURE rtl OF brick IS
 signal ball_next_loc_x, ball_next_loc_y : integer;
 signal brk_loc_x, brk_loc_y : integer;
-signal brk_loc_valid : std logic;
+signal brk_loc_valid : std_logic;
 BEGIN
 
 -- Brick location
@@ -30,7 +30,7 @@ begin
     elsif rising_edge(clk) and game_ctl = '1' then
         -- past <= 0
         -- Collision
-        if (brick_loc_valid = '1') and ((ball_next_loc_x = brk_loc_x) or (ball_next_loc_x = brk_loc_x + 1)) and (ball_next_loc_y = brick_loc_y) then
+        if (brk_loc_valid = '1') and ((ball_next_loc_x = brk_loc_x) or (ball_next_loc_x = brk_loc_x + 1)) and (ball_next_loc_y = brick_loc_y) then
 
             brk_loc_valid <= '0';
 

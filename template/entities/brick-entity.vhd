@@ -5,7 +5,7 @@ USE work.utils.ALL;
 
 ENTITY brick IS
     GENERIC (
-        loc_x, loc_y : STD_LOGIC_VECTOR(3 DOWNTO 0);
+        loc_x, loc_y : STD_LOGIC_VECTOR(3 DOWNTO 0) := "0110";
         clear_when_adj : STD_LOGIC := '0');
     PORT (
         clk : IN STD_LOGIC;

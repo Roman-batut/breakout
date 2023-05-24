@@ -1,5 +1,37 @@
 vsim -t ps display
 add wave *
-force clk 0 0, 1 10 -repeat 20
-force n_reset 0 0, 1 200  
-run 500
+
+force clk 0 0, 1 10 -repeat 20 
+
+force n_reset 0 0, 1 100
+
+force ball_loc_x(0) 1 0
+force ball_loc_x(1) 0 0
+force ball_loc_x(2) 1 0
+force ball_loc_x(3) 0 0
+
+force ball_loc_y(0) 1 0
+force ball_loc_y(1) 1 0
+force ball_loc_y(2) 0 0
+force ball_loc_y(3) 0 0
+
+force paddle_loc_x(0) 1 0
+force paddle_loc_x(1) 0 0
+force paddle_loc_x(2) 1 0
+force paddle_loc_x(3) 0 0
+
+force brick_loc_x_arr(0)(0) 1 0
+force brick_loc_x_arr(0)(1) 1 0
+force brick_loc_x_arr(0)(2) 0 0
+force brick_loc_x_arr(0)(3) 0 0
+
+force brick_loc_y_arr(0)(0) 0 0
+force brick_loc_y_arr(0)(1) 0 0
+force brick_loc_y_arr(0)(2) 1 0
+force brick_loc_y_arr(0)(3) 0 0
+
+force brick_loc_valid_arr(0) 1 0
+force brick_loc_valid_arr(1) 0 0
+force brick_loc_valid_arr(2) 0 0
+force brick_loc_valid_arr(3) 0 0
+run 300

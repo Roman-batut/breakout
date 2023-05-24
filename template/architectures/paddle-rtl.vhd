@@ -18,12 +18,12 @@ begin
 
             -- Right shift
             if but_right = '1' and to_integer(signed(paddle_loc)) < 8 then
-                paddle_loc <= to_integer(signed(paddle_loc)) + 1;
+                paddle_loc <= paddle_loc + "0001"";
             end if;
 
             -- Left shift
             if but_left = '1' and to_integer(signed(paddle_loc)) > 3 then
-                paddle_loc <= to_integer(signed(paddle_loc)) - 1;
+                paddle_loc <= paddle_loc - "0001";
             end if;
 
         end if;

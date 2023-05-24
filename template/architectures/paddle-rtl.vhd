@@ -1,9 +1,9 @@
 ARCHITECTURE rtl OF paddle IS
-signal paddle_loc : std_logic_vector(3 downto 0) := "0101";
+signal paddle_loc : integer := 5;
 BEGIN
 
 -- Paddle location
-paddle_loc_x <= paddle_loc;
+paddle_loc_x <= std_logic_vector(to_unsigned(paddle_loc));
 
 control : process (clk, n_reset)
 begin
@@ -17,13 +17,13 @@ begin
         elsif game_ctl = '1' then
 
             -- Right shift
-            if but_right = '1' and to_integer(signed(paddle_loc)) < 8 then
-                paddle_loc <= paddle_loc + "0001"";
+            if but_right = '1' and paddle_loc < 8 then
+                paddle_loc <= paddle_loc + 1;
             end if;
 
             -- Left shift
-            if but_left = '1' and to_integer(signed(paddle_loc)) > 3 then
-                paddle_loc <= paddle_loc - "0001";
+            if but_left = '1' and paddle_loc > 3 then
+                paddle_loc <= paddle_loc - 1;
             end if;
 
         end if;

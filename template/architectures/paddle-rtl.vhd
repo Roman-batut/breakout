@@ -3,7 +3,7 @@ signal paddle_loc : integer := 5;
 BEGIN
 
 -- Paddle location
-paddle_loc_x <= std_logic_vector(to_unsigned(paddle_loc));
+paddle_loc_x <= std_logic_vector(to_unsigned(paddle_loc, 4));
 
 control : process (clk, n_reset)
 begin
@@ -12,7 +12,7 @@ begin
         -- Reset
         if n_reset = '0' then
             
-            paddle_loc <= "0101";
+            paddle_loc <= 5;
 
         elsif game_ctl = '1' then
 

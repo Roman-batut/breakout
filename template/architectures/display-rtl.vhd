@@ -16,25 +16,25 @@ begin
         -- Bricks
 
         -- 0
-        if brick_loc_valid_arr(0) = 1 then
+        if brick_loc_valid_arr(0) = '1' then
             led_array(coord_to_ind(brick_loc_x_arr(0), brick_loc_y_arr(0))) <= '1';
             led_array(coord_to_ind(to_integer(signed(brick_loc_x_arr(0))) + 1, to_integer(signed(brick_loc_y_arr(0))))) <= '1';
         end if;
 
         -- 1
-        if brick_loc_valid_arr(1) = 1 then
+        if brick_loc_valid_arr(1) = '1' then
             led_array(coord_to_ind(brick_loc_x_arr(1), brick_loc_y_arr(1))) <= '1';
             led_array(coord_to_ind(to_integer(signed(brick_loc_x_arr(1))) + 1, to_integer(signed(brick_loc_y_arr(1))))) <= '1';
         end if;
 
         -- 2
-        if brick_loc_valid_arr(2) = 1 then
+        if brick_loc_valid_arr(2) = '1' then
             led_array(coord_to_ind(brick_loc_x_arr(2), brick_loc_y_arr(2))) <= '1';
             led_array(coord_to_ind(to_integer(signed(brick_loc_x_arr(2))) + 1, to_integer(signed(brick_loc_y_arr(2))))) <= '1';
         end if;
 
         -- 3
-        if brick_loc_valid_arr(3) = 1 then
+        if brick_loc_valid_arr(3) = '1' then
             led_array(coord_to_ind(brick_loc_x_arr(3), brick_loc_y_arr(3))) <= '1';
             led_array(coord_to_ind(to_integer(signed(brick_loc_x_arr(3))) + 1, to_integer(signed(brick_loc_y_arr(3))))) <= '1';
         end if;

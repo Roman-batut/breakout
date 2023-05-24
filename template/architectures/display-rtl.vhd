@@ -1,10 +1,18 @@
 ARCHITECTURE rtl OF display IS
-
 BEGIN
 
-display : process (clk, n_reset)
+disp : process (clk, n_reset)
 begin
-    if rising_edge(clk) then
+    if n_reset = '0' then
+    
+        led_array <= (others => '0');
+    
+    elsif rising_edge(clk) then
+
+        -- Clear all LEDs
+
+        led_array <= (others => '0');
+
         -- Bricks
 
         -- 0
@@ -69,9 +77,9 @@ begin
 
         -- Paddle
 
-        led_array(coord_to_ind(paddle_loc_x, paddle_loc_y)) <= '1';
-        led_array(coord_to_ind(to_integer(signed(paddle_loc_x)) + 1, to_integer(signed(paddle_loc_y)))) <= '1';
-        led_array(coord_to_ind(to_integer(signed(paddle_loc_x)) + 2, to_integer(signed(paddle_loc_y)))) <= '1';
+        led_array(coord_to_ind(paddle_loc_x, "0")) <= '1';
+        led_array(coord_to_ind(to_integer(signed(paddle_loc_x)) - 1, 0)) <= '1';
+        led_array(coord_to_ind(to_integer(signed(paddle_loc_x)) + 1, 0)) <= '1';
 
     end if;
 end process; 

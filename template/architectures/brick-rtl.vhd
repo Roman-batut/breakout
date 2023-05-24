@@ -11,8 +11,8 @@ brk_loc_y <= to_integer(unsigned(loc_y));
 
 
 -- Ball location
-ball_next_loc_x <= to_integer(unsigned(ball_loc_x)) + to_integer(unsigned(ball_vel_x));
-ball_next_loc_y <= to_integer(unsigned(ball_loc_y)) + to_integer(unsigned(ball_vel_y));
+ball_next_loc_x <= to_integer(unsigned(ball_loc_x)) + to_integer(signed(ball_vel_x));
+ball_next_loc_y <= to_integer(unsigned(ball_loc_y)) + to_integer(signed(ball_vel_y));
 
 brk : process (clk, n_reset, game_ctl, sync)
 begin

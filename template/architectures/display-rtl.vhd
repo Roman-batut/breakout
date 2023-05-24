@@ -85,7 +85,7 @@ begin
 
         -- Paddle
 
-        led_array(coord_to_ind(paddle_loc_x, "0")) <= '1';
+        led_array(coord_to_ind(to_integer(signed(paddle_loc_x)), 0)) <= '1';
         led_array(coord_to_ind(to_integer(signed(paddle_loc_x)) - 1, 0)) <= '1';
         led_array(coord_to_ind(to_integer(signed(paddle_loc_x)) + 1, 0)) <= '1';
 

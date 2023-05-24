@@ -23,9 +23,9 @@ V5Pa>8K5oz`<W[87?hA7[33
 !s100 A17n6^<UBU12XVnRP0<IW2
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1684931571
+Z7 !s110 1684933050
 !i10b 1
-Z8 !s108 1684931571.000000
+Z8 !s108 1684933050.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/ball-entity.vhd|
 !s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/ball-entity.vhd|
 !i113 1
@@ -47,9 +47,9 @@ Vm61PQ0@ON:H8PbNII9Y:l2
 !s100 ckoi1bQa;gV7:l4][B:;D2
 R6
 32
-Z14 !s110 1684931574
+Z14 !s110 1684933053
 !i10b 1
-Z15 !s108 1684931574.000000
+Z15 !s108 1684933053.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/ball-rtl.vhd|
 !s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/ball-rtl.vhd|
 !i113 1
@@ -122,7 +122,7 @@ V9@3VM;6GckdLedS6A96V^3
 !s100 YjKfK3?[ODTaZoPn`hYbh2
 R6
 32
-R7
+Z22 !s110 1684933051
 !i10b 1
 R8
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/brick-entity.vhd|
@@ -167,9 +167,9 @@ VkzY1OCQ]c>M1noQ9:G=853
 !s100 Qn2n7`7dODLdk0ILNcYWS3
 R6
 32
-Z22 !s110 1684931572
+R22
 !i10b 1
-Z23 !s108 1684931572.000000
+Z23 !s108 1684933051.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/debounce-entity.vhd|
 !s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/debounce-entity.vhd|
 !i113 1
@@ -190,9 +190,9 @@ VW`AEid2BdEa@]0hzHc[jo3
 !s100 VEWR`g9LYi@<EE2fUj6aW2
 R6
 32
-Z25 !s110 1684931575
+Z25 !s110 1684933054
 !i10b 1
-Z26 !s108 1684931575.000000
+Z26 !s108 1684933054.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/debounce-rtl.vhd|
 !s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/debounce-rtl.vhd|
 !i113 1
@@ -222,7 +222,7 @@ R23
 R9
 R10
 Artl
-w1684931567
+w1684933029
 R1
 R2
 R3
@@ -232,8 +232,8 @@ R16
 F//files8/data/batut/My Documents/breakout/breakout/template/architectures/display-rtl.vhd
 l2
 L1
-VBN43Ii;iGU`FCK1]E3GSC3
-!s100 UWnDH2cnUjX0U[jOjEYH81
+V21U=QeKHMNQZBQP6NelF70
+!s100 cf=hKGeLej7No5>o_GSiG1
 R6
 32
 R25
@@ -303,7 +303,7 @@ VB0a14]VUgF@dLQa>5KJ7P1
 !s100 aG:zn?3@7:K@mYD4[YneL1
 R6
 32
-R22
+Z27 !s110 1684933052
 !i10b 1
 R23
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/paddle-entity.vhd|
@@ -324,7 +324,7 @@ VA^SAJ^@VmEW=B1[@Rzdnb1
 !s100 X3]YR[jE3z`7AI8SQ@BDR3
 R6
 32
-Z27 !s110 1684931576
+Z28 !s110 1684933055
 !i10b 1
 R26
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/paddle-rtl.vhd|
@@ -346,9 +346,9 @@ Vm_AEG7V4c]66D34JiQEAG0
 !s100 iPl2TahZI_9BV3`]RG0ib2
 R6
 32
-Z28 !s110 1684931573
+R27
 !i10b 1
-Z29 !s108 1684931573.000000
+Z29 !s108 1684933052.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/pattern_encoder-entity.vhd|
 !s107 //files8/data/batut/My Documents/breakout/breakout/template/entities/pattern_encoder-entity.vhd|
 !i113 1
@@ -367,9 +367,9 @@ V<fS84=WBWCnXM1oM0glA<3
 !s100 Aj]FOY8aWhNA@^:1<YESS3
 R6
 32
-R27
+R28
 !i10b 1
-Z30 !s108 1684931576.000000
+Z30 !s108 1684933055.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/pattern_encoder-rtl.vhd|
 !s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/pattern_encoder-rtl.vhd|
 !i113 1
@@ -390,7 +390,7 @@ Vzm7=5W8O3e7:Wfk<A3hRL1
 !s100 2QXFQzgc;V>kZIMW6zJl80
 R6
 32
-R28
+R27
 !i10b 1
 R29
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/soft_button-entity.vhd|
@@ -413,7 +413,7 @@ VjXflZ]G<V;]KgbjYcJ5O@2
 !s100 ?hSfoe`5cNg32W4aUcG5=1
 R6
 32
-R27
+R28
 !i10b 1
 R30
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/soft_button-rtl.vhd|
@@ -435,7 +435,7 @@ VlLbW:Hb3TJ>;@?FBSG=en3
 !s100 i^do8hACHM;70CFMH9K]12
 R6
 32
-R28
+R27
 !i10b 1
 R29
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/entities/steer-entity.vhd|
@@ -456,7 +456,7 @@ VkfOe4LcSGeFVNJ8DKkmfE2
 !s100 HJ;VBEjeB[:?VV<3Oaa]C1
 R6
 32
-R27
+R28
 !i10b 1
 R30
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/steer-rtl.vhd|
@@ -500,9 +500,9 @@ VN]dz@W5c=o5IWlaiXUIe;1
 !s100 a2eW03RAH>2Z7A@391ZZ>3
 R6
 32
-Z31 !s110 1684931577
+Z31 !s110 1684933056
 !i10b 1
-R30
+Z32 !s108 1684933056.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/architectures/timer-rtl.vhd|
 !s107 //files8/data/batut/My Documents/breakout/breakout/template/architectures/timer-rtl.vhd|
 !i113 1
@@ -514,8 +514,8 @@ R3
 R4
 R0
 R5
-Z32 8//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd
-Z33 F//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd
+Z33 8//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd
+Z34 F//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd
 l0
 L5
 V_>9T9`[T:PnC_KLYTIM?[1
@@ -525,7 +525,7 @@ R6
 b1
 R31
 !i10b 1
-Z34 !s108 1684931577.000000
+R32
 Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|//files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd|
 Z36 !s107 //files8/data/batut/My Documents/breakout/breakout/template/packages/utils-package.vhd|
 !i113 1
@@ -544,7 +544,7 @@ R6
 32
 R31
 !i10b 1
-R34
+R32
 R35
 R36
 !i113 1

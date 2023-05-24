@@ -16,17 +16,17 @@ begin
 
         elsif game_ctl = '1' then
 
-            -- Right shift
-            if but_right = '1' then
-                if paddle_loc < 8 then
-                    paddle_loc <= paddle_loc + 1;
-                end if;
-            end if;
-
             -- Left shift
             if but_left = '1' then
                 if paddle_loc > 3 then
                     paddle_loc <= paddle_loc - 1;
+                end if;
+            end if;
+
+            -- Right shift
+            if but_right = '1' then
+                if paddle_loc < 8 then
+                    paddle_loc <= paddle_loc + 1;
                 end if;
             end if;
 

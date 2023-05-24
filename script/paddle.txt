@@ -7,6 +7,6 @@ force n_reset 0 0, 1 100
 force game_ctl 0 0, 1 50
 
 force but_right 0 0, 1 110
-force but_left 0 0, 1 110
+force but_left 0 0, 1 150
 
 run 500

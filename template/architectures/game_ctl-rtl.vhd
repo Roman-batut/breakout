@@ -25,7 +25,7 @@ begin
 
     if n_reset = '0' then
         s_state <= idle_stop;
-    elsif rising_edge(clk) and (s_state = play and (not(s_next_state = end_stop))) then
+    elsif rising_edge(clk) then
         s_state <= s_next_state;
     end if;
     

@@ -32,13 +32,13 @@ begin
 end process;
 
 -- Next State Logic
-next_state : process(n_reset, s_state, but_left, but_right, ball_loc_invalid, s_brk_invalid, play_without_bricks)
+next_state : process(n_reset, s_state, but_left, but_right, ball_loc_invalid, s_brk_invalid, play_without_bricks, brick_loc_valid)
 begin
 
     -- Reset
     if n_reset = '0' then
         s_next_state <= idle_stop;
-        
+
     -- Idle Stop
     elsif s_state = idle_stop then
         

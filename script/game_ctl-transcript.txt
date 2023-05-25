@@ -1,0 +1,14 @@
+vsim -t ps game_ctl
+add wave *
+
+force clk 0 0, 1 15 -repeat 30
+
+force n_reset 0 0, 1 100, 0 800, 1 900
+force but_left 0 0, 1 200
+force but_right 0 0, 1 600
+force ball_loc_invalid 0 0
+force brick_loc_valid "1111" 0, "0000" 400, "1100" 600
+
+
+
+run 1000

@@ -1,11 +1,11 @@
 ARCHITECTURE rtl OF game_ctl IS
-signal play_without_bricks : std_logic := '0';
+signal play_without_bricks, s_brk_invalid : std_logic := '0';
 
 type state_type is (play, end_stop, idle_stop);
     signal s_state, s_next_state : state_type := idle_stop;
 BEGIN
 
-game_ctl_out <= '1' when (s_state = play and (not (s_next_state = end_stop))) else '0';
+game_ctl_out <= '1' when (s_state = play and (not(s_next_state = end_stop))) else '0';
 
 game : process (clk, n_reset)
 begin
@@ -17,7 +17,6 @@ begin
     end if;
     
 end process;
-
 
 next_state : process(clk, n_reset, s_state, but_left, but_right, ball_loc_invalid, brick_loc_valid, play_without_bricks)
 begin
@@ -43,7 +42,7 @@ begin
 
             -- Play State
             when play =>
-                if (ball_loc_invalid = '1') or ((brick_loc_valid = "0000") and play_without_bricks = '0') then
+                if (ball_loc_invalid = '1') or (s_brk_invalid = '1' and play_without_bricks = '0') then
                     s_next_state <= end_stop;
                 end if;
             
@@ -51,6 +50,17 @@ begin
             when others =>
                 s_next_state <= idle_stop; 
         end case;
+    end if;
+
+end process;
+
+bricks : process (clk, n_reset, s_state, ball_loc_invalid, brick_loc_valid, play_without_bricks)
+begin 
+    
+    s_brk_invalid <= '0';
+
+    if brick_loc_valid = "0000" then
+        s_brk_invalid <= '1';
     end if;
 
 end process;

@@ -2,7 +2,7 @@ vsim -t ps game_ctl
 add wave *
 
 force clk 0 0, 1 10 -repeat 20 
-force n_reset 0 0, 1 100 -repeat 5
+force n_reset 0 0, 1 100, 0 200, 1 250, 0 400
 
 force but_left 0 0, 1 10
 

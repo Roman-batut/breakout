@@ -33,11 +33,11 @@ begin
                 end if;
             
             -- End Stop State
-            when (others => s_state <= s_state) 
+            when (others => s_state <= s_state;) 
         end case;
     end if;
 
-end process game;
+end process;
 
 game_ctl_out <= '1' when s_state = play else '0';
     

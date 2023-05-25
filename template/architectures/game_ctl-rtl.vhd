@@ -15,15 +15,16 @@ begin
 
             -- Idle Stop State
             when idle_stop =>
-                if (but_left = '1') or (but_right = '1') then
-                    s_state <= play;
-                end if;
 
                 -- Can play without bricks
                 if brick_loc_valid = "0000" then
                     play_without_bricks <= '1';
                 else
                     play_without_bricks <= '0';
+                end if;
+
+                if (but_left = '1') or (but_right = '1') then
+                    s_state <= play;
                 end if;
 
             -- Play State

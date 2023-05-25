@@ -11,13 +11,11 @@ game_ctl_out <= '1' when (s_state = play and (not(s_next_state = end_stop)) ) el
 bricks : process (brick_loc_valid)
 begin 
 
-    s_brk_invalid <= '1';
+    s_brk_invalid <= '0';
 
-    for i in 0 to 3 loop
-        if brick_loc_valid(i) = '1' then
-            s_brk_invalid <= '0';
-        end if;
-    end loop;
+    if brick_loc_valid = "0000" then
+        s_brk_invalid <= '1';
+    end if;
 
 end process;
 
@@ -40,7 +38,7 @@ begin
     -- Reset
     if n_reset = '0' then
         s_next_state <= idle_stop;
-    
+        
     -- Idle Stop
     elsif s_state = idle_stop then
         

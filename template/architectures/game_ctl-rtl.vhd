@@ -5,6 +5,8 @@ type state_type is (play, end_stop, idle_stop);
     signal s_state, s_next_state : state_type := idle_stop;
 BEGIN
 
+game_ctl_out <= '1' when s_state = play else '0';
+
 game : process (clk, n_reset)
 begin
 
@@ -52,7 +54,5 @@ begin
     end if;
 
 end process;
-
-game_ctl_out <= '1' when s_state = play else '0';
     
 END rtl;

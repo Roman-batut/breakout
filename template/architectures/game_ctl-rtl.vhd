@@ -5,17 +5,19 @@ type state_type is (play, end_stop, idle_stop);
     signal s_state, s_next_state : state_type := idle_stop;
 BEGIN
 
-game_ctl_out <= '1' when (s_state = play and (not(s_next_state = end_stop))) else '0';
+game_ctl_out <= '1' when (s_state = play and (not(s_next_state = end_stop)) ) else '0';
 
 -- Invalid Bricks
 bricks : process (brick_loc_valid)
 begin 
 
-    s_brk_invalid <= '0';
+    s_brk_invalid <= '1';
 
-    if brick_loc_valid = "0000" then
-        s_brk_invalid <= '1';
-    end if;
+    for i in 0 to 3 loop
+        if brick_loc_valid(i) = '1' then
+            s_brk_invalid <= '0';
+        end if;
+    end loop;
 
 end process;
 
@@ -32,39 +34,27 @@ begin
 end process;
 
 -- Next State Logic
-next_state : process(clk, n_reset, s_state, but_left, but_right, ball_loc_invalid, brick_loc_valid, play_without_bricks)
+next_state : process(n_reset, s_state, but_left, but_right, ball_loc_invalid, s_brk_invalid)
 begin
 
     if n_reset = '0' then
         s_next_state <= idle_stop;
-    else 
-        case s_state is
-
-            -- Idle Stop State
-            when idle_stop =>
-
-                -- Can play without bricks
-                if brick_loc_valid = "0000" then
-                    play_without_bricks <= '1';
-                else
-                    play_without_bricks <= '0';
-                end if;
-
-                if (but_left = '1') or (but_right = '1') then
-                    s_next_state <= play;
-                end if;
-
-            -- Play State
-            when play =>
-                if (ball_loc_invalid = '1') or (s_brk_invalid = '1' and play_without_bricks = '0') then
-                    s_next_state <= end_stop;
-                end if;
-            
-            -- End Stop State
-            when others =>
-                s_next_state <= idle_stop; 
-        end case;
+    elsif s_state = idle_stop then
+        if (but_left = '1') or (but_right = '1') then
+            s_next_state <= play;
+        end if;
+    elsif s_state = play then
+        if (ball_loc_invalid = '1') or (s_brk_invalid = '1') then
+            s_next_state <= end_stop;
+        end if;
     end if;
+
+        -- Can play without bricks
+        --if brick_loc_valid = "0000" then
+        --    play_without_bricks <= '1';
+        --else
+        --    play_without_bricks <= '0';
+        --end if;
 
 end process;
 

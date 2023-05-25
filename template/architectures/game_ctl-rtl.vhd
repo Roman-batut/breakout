@@ -21,7 +21,7 @@ next_state : process(clk, n_reset, s_state, but_left, but_right, ball_loc_invali
 begin
 
     if n_reset = '0' then
-        s_state <= idle_stop;
+        s_next_state <= idle_stop;
     else 
         case s_state is
 

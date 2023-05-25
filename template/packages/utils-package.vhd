@@ -14,11 +14,11 @@ PACKAGE utils IS
         y : INTEGER
     ) RETURN INTEGER;
 
-    CONSTANT refresh_count : INTEGER := 1;
-    CONSTANT debounce_count : INTEGER := 8;
+    -- CONSTANT refresh_count : INTEGER := 1;
+    -- CONSTANT debounce_count : INTEGER := 8;
 
-    -- CONSTANT refresh_count : INTEGER := 12000000 / 4; -- 4Hz
-    -- CONSTANT debounce_count : INTEGER := 12000000 / 8; -- 0.125s interval 
+    CONSTANT refresh_count : INTEGER := 12000000 / 4; -- 4Hz
+    CONSTANT debounce_count : INTEGER := 12000000 / 8; -- 0.125s interval 
 END PACKAGE utils;
 
 PACKAGE BODY utils IS

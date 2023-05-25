@@ -17,7 +17,7 @@ begin
 end process;
 
 
-next_state : process(clk, n_reset, but_left, but_right, ball_loc_invalid, brick_loc_valid)
+next_state : process(clk, n_reset, s_state, but_left, but_right, ball_loc_invalid, brick_loc_valid, play_without_bricks)
 begin
 
     if n_reset = '0' then

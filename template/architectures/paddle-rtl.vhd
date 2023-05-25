@@ -7,14 +7,14 @@ paddle_loc_x <= std_logic_vector(to_unsigned(paddle_loc, 4));
 
 control : process (clk, n_reset)
 begin
-    if rising_edge(clk) then
+    -- Reset
+    if n_reset = '0' then
+        
+        paddle_loc <= 5;
 
-        -- Reset
-        if n_reset = '0' then
-            
-            paddle_loc <= 5;
+    elsif rising_edge(clk) then
 
-        elsif game_ctl = '1' then
+        if game_ctl = '1' then
 
             -- No shift
             if but_left = '1' and but_right = '1' then

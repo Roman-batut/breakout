@@ -22,7 +22,7 @@ begin
 
     if n_reset = '0' then
         s_state <= idle_stop;
-    else then
+    else 
         case s_state is
 
             -- Idle Stop State

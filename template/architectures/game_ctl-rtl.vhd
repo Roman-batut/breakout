@@ -5,7 +5,7 @@ type state_type is (play, end_stop, idle_stop);
     signal s_state : state_type := idle_stop;
 BEGIN
 
-game : process(clk, n_reset)
+game : process(clk, n_reset, but_left, but_right, ball_loc_invalid, brick_loc_valid)
 begin
 
     if n_reset = '0' then

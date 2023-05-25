@@ -34,27 +34,33 @@ begin
 end process;
 
 -- Next State Logic
-next_state : process(n_reset, s_state, but_left, but_right, ball_loc_invalid, s_brk_invalid)
+next_state : process(n_reset, s_state, but_left, but_right, ball_loc_invalid, s_brk_invalid, play_without_bricks)
 begin
 
+    -- Reset
     if n_reset = '0' then
         s_next_state <= idle_stop;
+    
+    -- Idle Stop
     elsif s_state = idle_stop then
+        
+        -- Can play without bricks
+        if brick_loc_valid = "0000" then
+            play_without_bricks <= '1';
+        else
+            play_without_bricks <= '0';
+        end if;
+
         if (but_left = '1') or (but_right = '1') then
             s_next_state <= play;
         end if;
+    
+    -- Play
     elsif s_state = play then
-        if (ball_loc_invalid = '1') or (s_brk_invalid = '1') then
+        if (ball_loc_invalid = '1') or (s_brk_invalid = '1' and play_without_bricks = '0') then
             s_next_state <= end_stop;
         end if;
     end if;
-
-        -- Can play without bricks
-        --if brick_loc_valid = "0000" then
-        --    play_without_bricks <= '1';
-        --else
-        --    play_without_bricks <= '0';
-        --end if;
 
 end process;
 

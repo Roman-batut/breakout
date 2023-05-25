@@ -7,17 +7,31 @@ BEGIN
 
 game_ctl_out <= '1' when (s_state = play and (not(s_next_state = end_stop))) else '0';
 
-game : process (clk, n_reset)
+-- Invalid Bricks
+bricks : process (brick_loc_valid)
+begin 
+
+    s_brk_invalid <= '0';
+
+    if brick_loc_valid = "0000" then
+        s_brk_invalid <= '1';
+    end if;
+
+end process;
+
+-- State Switch
+game : process (clk, n_reset, s_state, s_next_state)
 begin
 
     if n_reset = '0' then
         s_state <= idle_stop;
-    elsif rising_edge(clk) then
+    elsif rising_edge(clk) and (s_state = play and (not(s_next_state = end_stop))) then
         s_state <= s_next_state;
     end if;
     
 end process;
 
+-- Next State Logic
 next_state : process(clk, n_reset, s_state, but_left, but_right, ball_loc_invalid, brick_loc_valid, play_without_bricks)
 begin
 
@@ -54,15 +68,4 @@ begin
 
 end process;
 
-bricks : process (clk, n_reset, s_state, ball_loc_invalid, brick_loc_valid, play_without_bricks)
-begin 
-    
-    s_brk_invalid <= '0';
-
-    if brick_loc_valid = "0000" then
-        s_brk_invalid <= '1';
-    end if;
-
-end process;
-    
 END rtl;
